@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Банк</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header> 
+	<div class="container">
+		<div class="heading">
+	    <img src="img/wbp.png" alt="World Bank Publications" class="wbp">
+		<img src="img/number.png" alt="Номера телефонов" class="number">
+		<br>
+		<br>
+		<nav>
+			<ul class="menu">
+				<li class="first">
+					<a  href="#">Кредитные карты</a>
+				</li>
+				<li>
+					<a  href="#">Вклады</a>
+				</li>
+				<li>
+					<a  href="#">Дебетовая карта</a>
+				</li>
+				<li>
+					<a  href="#">Страхование</a>
+				</li>
+				<li>
+					<a  href="#">Друзья</a>
+				</li>
+				<li>
+					<a  href="#">Интернет-банк</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="way">
+		<ul>
+				<li>
+					<a href="#">Главная</a>
+				</li>
+				<li class="cal">
+					<a href="#">-</a>
+				</li>
+				<li>
+					<a href="#">Вклады</a>
+				</li>
+				<li class="cal">
+					<a href="#">-</a>
+				</li>
+				<li class="cal">
+					<a href="#">Калькулятор</a>
+				</li>
+	</div>
+	</div>
+</header>
+
+<section> 
+	<div class="container">
+	<div class="form">	
+		<div class="title">
+		<h1> Калькулятор </h1> </div>
+	 <div class="function">
+		<label>Дата оформления вклада</label>
+		<div class="dat">
+		<input type="date"size="10"> </div>
+	<div class="function">
+		<label>Сумма вклада</label>
+		<div class="num"> <input type="number"size="3" name="num" min="1000" maxlength="3000000" value="10000"> </div>
+		<div class="ran"> <input type="range" min="1000" max="3000000" step="1" value="1500500"></div></div> </div> 
+	<div class="function">
+		<label>Срок вклада</label>
+	<select>
+        <option>1 год</option>
+        <option>2 года</option>
+        <option>3 года</option>
+        <option>4 года</option>
+        <option>5 лет</option>
+    </select> </div>
+    <div class="function">
+		<label>Пополнение вклада</label>
+	<p>
+        <input type="radio" name="question" value="no" checked>Нет</p>
+    <p>
+        <input type="radio" name="question" value="yes">Да</p> </div>
+    <div class="function">
+   		<label>Сумма пополнение вклада</label> 
+   	<div class="num">
+   		<input type="number"size="3" name="num" min="1000" maxlength="3000000" value="10000"> </div>
+   	<div class="ran"><input type="range" min="1000" max="3000000" step="1" value="1500500"></div>
+	</div>
+		<div class="btn"> <a class="button" href="#">Рассчитать</a> </div>
+		<div class="resualt"><p>Результат:</p></div>
+	</div>
+	</div>
+</section>
+
+<footer> 
+	<div class="container">
+		<ul class="vkladki">
+			<li>
+				<a href="#">Кредитные карты</a>
+			</li>
+			<li>
+				<a href="#">Вклады</a>
+			</li>
+			<li>
+				<a href="#">Дебетовая карта</a>
+			</li>
+				<li>
+					<a href="#">Страхование</a>
+				</li>
+				<li>
+					<a href="#">Друзья</a>
+				</li>
+				<li>
+					<a href="#">Интернет-банк</a>
+				</li>
+			</ul>
+	</div>
+</footer>
+</body>
+</html>

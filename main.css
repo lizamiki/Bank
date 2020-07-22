@@ -1,0 +1,189 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+
+.number {
+	float:right;
+	margin-top: 15px;
+}
+.menu {
+  margin-top: -25px;
+  padding: 25px 0 5px;
+  text-align: center;
+}
+.menu li {
+	float:left;
+	display: inline;
+	background: #231f20; 
+}
+
+.menu a { 
+	margin: 0 auto;
+	bottom: 0;
+	display: block;
+    padding: 12px 45px 12px 46px;
+    color: #edebec;
+    border: 1px solid #eb5017;
+	text-decoration: none;
+	font-size: 13px; 
+}
+
+.menu a:hover { 
+	background: #eb5017;
+	color:#edebec;  
+}
+
+.way {
+	padding: 0;
+	display: block;
+	margin-left: -25px;
+	margin-top: 45px;
+}
+
+.way li {
+	float: left;
+	display:block;
+	padding: 1px;	
+}
+
+.way a {
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #797979;
+	text-decoration: underline;	
+}
+
+.cal a {text-decoration:none;}
+
+.form {
+	margin-top: 90px;
+	margin-left: 18px;
+	width: 610px;
+	height: 300px;
+    padding: 30px;
+	background: #f2f2f2;
+
+}
+
+.title h1 {
+	margin-top: -20px;
+	margin-left: 55px;
+	font-size: 30px;
+	font-weight: normal;
+	color: #eb5017;
+	text-decoration: none;
+	
+}
+
+.dat input{
+	width: 125px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.function {
+	clear:both; 
+	line-height:25px;
+}
+
+.function p {
+	clear:both; 
+	text-align:right;
+	display: inline;
+	line-height:25px;
+	font-size: 13px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	margin-top: 100px;
+} 
+
+label {
+	float:left;
+	font-size: 13px;
+	color:#231f20;
+	text-align:right;
+	width:185px;
+	margin-left: -40px;
+	padding: 6px;
+}
+
+.num input {
+	text-align:left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-top: 8px;
+	height: 10px;
+	width: 117px;
+	padding: 4px 4px 3px 5px;
+}
+
+.function select {
+	font-size: 13px;
+	margin-left: 20px;
+	margin-top: 5px;
+	width: 130px;
+	padding: 2px 2px 3px 20px;
+	
+}
+
+.ran input {
+	float:right;
+	margin-bottom: -70px;
+	margin-top: -43px;
+	margin-right: 150px;
+}
+
+.btn {
+	margin-top:20px;
+	margin-left:-10px;	
+}
+.button {
+	background: #99db09;
+	background-image: -webkit-linear-gradient(bottom, #82cb00 20%,#8cd601 40%,#a8e51a 60%,#b7ee31 100%);
+	color:#5a7f13;
+	text-decoration: none;
+	text-align: right;
+	font-size: 12px;
+	font-weight: 600;
+	border: 4px double #f2f2f2; 
+	border-radius: 10px;
+	padding: 8px 15px 8px 15px; 
+}
+
+.resualt p {
+	color:#5a7f13;
+	text-decoration: none;
+	margin-top: -15px;
+	margin-left: 110px;
+	font-size: 12px;
+	font-weight: 600;
+
+}
+
+footer {
+	position: absolute;
+	margin-left: 260px;
+	bottom: 20px;
+	height: 51px;
+	background: #231f20; 
+
+}
+
+.vkladki li{
+	display: inline;
+	background: #231f20; 
+
+}
+
+.vkladki a {
+	font-size: 12px;
+	color: #edebec;
+	text-decoration:underline;
+	padding: 10px ;
+
+}
